@@ -1,0 +1,67 @@
+@charset 'utf-8';
+
+body{
+    font-family: 'Courier New', Courier;
+    background: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+div{
+    background: rgb(27, 56, 26);
+    border-radius: 8px;
+}
+
+h1{
+    color: rgb(233, 201, 22);
+    text-align: center;
+}
+
+section#jogadores{
+    background: burlywood;
+    padding: 1.5%;
+    border-radius:  7px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+label{
+    font-size: 200%;
+    color: rgb(0, 51, 11);
+}
+
+input{
+    font-size: 150%;
+}
+span{
+    font-size: 200%;
+    color: red;
+}
+span#emp{
+    font-size: 200%;
+    color: blue
+}
+section#funcao{
+    text-align: center;
+}
+button{
+    padding: 0.5%;
+    border-radius: 10px;
+    font-size: 20pt;
+    background: burlywood;
+    border-color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+table{
+    background: burlywood;
+    padding: 1%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+table td {
+    font-size: 120pt;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+table td#a1 {
+    border-left: none;
+    border-top: none;
+}
+
+table td#a2 {
+    border-top: none;
+}
+
+table td#a3 {
+    border-top: none;
+    border-right: none;
+}
+
+table td#b1 {
+    border-left: none;
+}
+
+table td#b3 {
+    border-right: none;
+}
+
+table td#c1 {
+    border-left: none;
+    border-bottom: none;
+}
+
+table td#c2 {
+    border-bottom: none;
+}
+
+table td#c3 {
+    border-right: none;
+    border-bottom: none;
+}

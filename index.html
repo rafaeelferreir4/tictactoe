@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/tabuleiro.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Tic-Tac-Toe (a.k.a. Jogo da Velha)</h1>
+        </header>
+        <main>
+            <section id="jogadores">
+                <label>JOGADORES:</label><br>   
+                <label for="#jog1">X:</label>
+                <input id="jog1" placeholder="Jogador 1" size="15%">
+                <label for="#jog2">O:</label>
+                <input id="jog2" placeholder="Jogador 2" size="15%"><br><br>
+                <label for="vitx">VITÓRIAS X:</label>
+                <span id="vitx">0</span>
+                <label for="vito">VITÓRIAS O:</label>
+                <span id="vito">0</span>
+                <br>
+                <label for="emp">EMPATES:</label>
+                <span id="emp">0</span><br>
+                <span id="win"></span>
+            </section>
+            <br>
+            <section id="funcao">
+                <button id="breset">RESET</button>
+                <button id="bnew">NEW</button>
+            </section>
+            <br>
+            <section>
+                <table>
+                    <tbody id="tabuleiro">
+                        <tr>
+                            <td id="a1">&nbsp;</td>
+                            <td id="a2">&nbsp;</td>
+                            <td id="a3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td id="b1">&nbsp;</td>
+                            <td id="b2">&nbsp;</td>
+                            <td id="b3">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td id="c1">&nbsp;</td>
+                            <td id="c2">&nbsp;</td>
+                            <td id="c3">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+             &nbsp;Rafael Ferreira  2C  
+        </footer>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>
