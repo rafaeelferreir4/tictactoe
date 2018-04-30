@@ -11,12 +11,10 @@ let cont = 0;
 tabuleiro.addEventListener('click', function(e) {
     win.textContent = '';
     const jogada = document.querySelector('#' +e.srcElement.id);
-    console.log(jogada);
     if (jogada.textContent !== 'X' && jogada.textContent !== 'O') {
         if (cont % 2 === 0) jogada.textContent = 'X';
         else jogada.textContent = 'O';
         cont++;
-        console.log(cont);
         if (verificar() === true) {
             if (cont%2 === 1) {
                 vitx.textContent++;
@@ -26,7 +24,6 @@ tabuleiro.addEventListener('click', function(e) {
                 vito.textContent++;
                 win.textContent = 'O GANHOU!';
             }
-            console.log(verificar());
             reset();
         }
         if (cont === 9) {
